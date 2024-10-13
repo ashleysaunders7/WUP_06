@@ -82,7 +82,7 @@ According to the numerical figures, there is a 65:35 favor to opposition ratio. 
 chisq.test(table2)
 chisqtestGC(table2)
 ```
-
+In the FisherXY test, each p-value was distinct. For black and white, the p-value is 0.00000000000000000022. For white and other, the p-value is 0.002607. For blakc and other, the p-value is 0.001564.
 
 
 # Discussion and Conclusion
