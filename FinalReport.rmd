@@ -88,11 +88,17 @@ The Numerical results show the ratio of favor to oppose is 65:35. Whites favor m
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
-`
-
+```{r}
+chisq.test(table2)
+chisqtestGC(table2)
+```
+The p-value is very low being at 0.0000000000022, so we need more data.
 
 ## More data version
-
+```{r}
+fisherXY(mydata$race, mydata$cappun, confL = 0.99)
+```
+The p-values in the fisherXY test were all different. The p-value for black and white is 0.00000000000000000022. The p-value for white and other is 0.002607. The p-value for blakc and other is 0.001564.
 
 # Discussion and Conclusion
 
