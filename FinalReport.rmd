@@ -70,7 +70,7 @@ rowPerc(table2)
 colPerc(table2)
 ```
 
-
+According to the numerical figures, there is a 65:35 favor to opposition ratio. In their race, white people favor more. 43:57 is the Black group ratio. They oppose their race more strongly. The ratio on the other is 55:45. More seem to be in favor than against. Count is high in comparison to the others. 
 
 
 
